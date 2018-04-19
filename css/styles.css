@@ -1,0 +1,28 @@
+body {
+  background-image: url('../img/coffee.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  padding-left: 7rem;
+  padding-top: 7rem;
+}
+body:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+div {
+  max-width: 30rem;
+}
+h1 {
+  color: #fff;
+}
